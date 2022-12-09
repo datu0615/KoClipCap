@@ -1,4 +1,4 @@
-# KoClipCap: CLIP Prefix for Image Captioning
+# KoClipCap: CLIP Prefix for Image Captioning (Korean)
 
 # Image Captioning 
 
