@@ -1,0 +1,14 @@
+SAVE_DIR          : output
+MODEL             : ClipCap
+WEIGHTS           : checkpoints/clipcap/flickr8k_weights.pt
+DATASET           : flickr8k
+DATASET_ROOT      : 'data/flickr8k'
+TRAIN_DATA_PATH   : data/flickr8k_coco/flickr8k_train.pkl
+VAL_DATA_PATH     : data/flickr8k_coco/flickr8k_test.pkl
+SEQ_LENGTH        : 10
+BATCH_SIZE        : 8
+EPOCHS            : 100
+EVAL_INTERVAL     : 10
+LR                : 0.001
+WEIGHT_DECAY      : 0.01
+WARMUP            : 10
