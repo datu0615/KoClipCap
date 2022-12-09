@@ -8,28 +8,7 @@ In 2020, a new model from Microsoft is released, called [Oscar](https://github.c
 
 After coming out the zero-shot model [CLIP](https://arxiv.org/abs/2103.00020) from OpenAI, many papers released on vision-language related tasks like [CLIP-ViL](https://arxiv.org/abs/2107.06383), [X-modaler](https://arxiv.org/abs/2103.17249) and lastly [ClipCap](https://arxiv.org/abs/2111.09734). Among them, ClipCap is the most simplest network everyone can easily test.
 
-## Benchmarks
 
-COCO
-
-Model | BLEU-4↑ | METEOR↑ | ROUGE-L↑ | CIDEr↑ | SPICE↑ | Params <br><sup>(M) | Pretrained
---- | --- | --- | --- | --- | --- | --- | --- 
-[ClipCap](https://arxiv.org/abs/2111.09734) | 32.2 | 27.1 | - | 108.4 | 20.1 | 156 | [download](https://drive.google.com/file/d/1IdaBtMSvtyzF0ByVaBHtvM0JYSXRExRX/view?usp=sharing)
-[LATGeO](https://arxiv.org/abs/2109.07799) | 36.4 | 27.8 | 56.7 | 115.8 | - | -
-
-Conceptual Captions
-
-Model | ROUGE-L↑ | CIDEr↑ | SPICE↑ | Params <br><sup>(M) | Pretrained
---- | --- | --- | --- | --- | ---
-ClipCap | 26.7 | 87.3 | 18.5 | 156 | [download](https://drive.google.com/file/d/14pXWwB4Zm82rsDdvbGguLfx9F8aM7ovT/view?usp=sharing)
-
-nocaps
-
-Model | in-domain <br><sup>(CIDEr↑ / SPICE↑) | near-domain <br><sup>(CIDEr↑ / SPICE↑) | out-of-domain <br><sup>(CIDEr↑ / SPICE↑) | overall <br><sup>(CIDEr↑ / SPICE↑) | Params <br><sup>(M)
---- | --- | --- | --- | --- | ---
-ClipCap | 79.7/12.2 | 67.7/11.3 | 49.4/9.7 | 65.7/11.1 | 156
-
-> Notes: All these results are without CIDEr optimization.
 
 ## Requirements
 
