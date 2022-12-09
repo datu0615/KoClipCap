@@ -44,7 +44,6 @@ $ git clone --recursive https://github.com/sithu31296/image-captioning.git
 ```
 
 Follow the installation steps in [coco-caption](https://github.com/sithu31296/coco-caption) if you want to evaluate, otherwise not needed.
-
 Other requirements can be installed with:
 
 ```bash
@@ -61,11 +60,6 @@ $ python tools/infer.py \
   --beam-search False
 ```
 
-Sample inference result:
-
-![test](assets/test.jpg)
-<br>
-A couple of people standing next to an elephant.
 
 ## Datasets
 
