@@ -129,6 +129,7 @@ Most of the codes are from:
 * [rmokady/CLIP_prefix_caption](https://github.com/rmokady/CLIP_prefix_caption)
 * [ruotianluo/ImageCaptioning.pytorch](https://github.com/ruotianluo/ImageCaptioning.pytorch)
 * [microsoft/Oscar](https://github.com/microsoft/Oscar)
+* [microsoft/Oscar](https://github.com/sithu31296/image-captioning)
 
 ## Citations
 
